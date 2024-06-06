@@ -1,0 +1,175 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from tensorflow.keras.datasets import cifar10
+
+# Load CIFAR-10 dataset
+(X_train, Y_train), (X_test, Y_test) = cifar10.load_data()
+print(X_train.shape)
+print(Y_train.shape)
+print(X_test.shape)
+print(Y_test.shape)
+
+# Define the classes of interest: airplane, bird, cat
+classes_of_interest = [0, 2, 3]  # airplane: 0, bird: 2, cat: 3
+class_names = {0: 'airplane', 2: 'bird', 3: 'cat'}
+
+# Function to filter and limit dataset to 1000 samples per class
+def filter_and_limit_data(X, Y, classes, limit_per_class):
+    filtered_X = []
+    filtered_Y = []
+    for class_label in classes:
+        class_indices = np.where(Y == class_label)[0][:limit_per_class]
+        filtered_X.append(X[class_indices])
+        filtered_Y.append(Y[class_indices])
+    return np.vstack(filtered_X), np.vstack(filtered_Y)
+
+# Filter and limit training data
+X_train, Y_train = filter_and_limit_data(X_train, Y_train, classes_of_interest, 334)
+
+# Filter and limit testing data
+X_test, Y_test = filter_and_limit_data(X_test, Y_test, classes_of_interest, 334)
+
+# Adjust to exactly 1000 samples
+X_train = X_train[:1000]
+Y_train = Y_train[:1000]
+X_test = X_test[:1000]
+Y_test = Y_test[:1000]
+
+print(X_train.shape)
+print(X_test.shape)
+
+# Preprocess images
+X_train = X_train.astype('float32') / 255.0
+X_test = X_test.astype('float32') / 255.0
+
+# Function to plot images of a specific class
+def plot_class_images(X, Y, class_label, class_name, num_images=10):
+    class_indices = np.where(Y == class_label)[0]
+    selected_indices = np.random.choice(class_indices, num_images, replace=False)
+    selected_images = X[selected_indices]
+
+    plt.figure(figsize=(15, 2))
+    for i, img in enumerate(selected_images):
+        plt.subplot(1, num_images, i+1)
+        plt.imshow(img)
+        plt.axis('off')
+    plt.suptitle(f'Images of {class_name}')
+    plt.show()
+
+# Plot images of each class
+for class_label in classes_of_interest:
+    plot_class_images(X_train.reshape(-1, 32, 32, 3), Y_train, class_label, class_names[class_label])
+
+
+# Flatten images
+X_train = X_train.reshape(-1, 32 * 32 * 3)
+X_test = X_test.reshape(-1, 32 * 32 * 3)
+print(X_train.shape)  # should output (1000, 3072)
+print(X_test.shape)   # should output (1000, 3072)
+
+class SOM:
+    def __init__(self, m, n, dim, learning_rate=0.5, radius=None, decay_function=None):
+        self.m = m
+        self.n = n
+        self.dim = dim
+        self.learning_rate = learning_rate
+        self.radius = radius if radius else max(m, n) / 2
+        self.decay_function = decay_function if decay_function else self._default_decay
+        self.weights = np.random.random((m, n, dim))
+        self.initial_radius = self.radius
+
+    def _default_decay(self, learning_rate, radius, i, max_iter):
+        return learning_rate * np.exp(-i / max_iter), radius * np.exp(-i / max_iter)
+
+    def _find_bmu(self, sample):
+        distances = np.linalg.norm(self.weights - sample, axis=2)
+        bmu_idx = np.unravel_index(np.argmin(distances), (self.m, self.n))
+        return bmu_idx
+
+    def _update_weights(self, sample, bmu_idx, learning_rate, radius):
+        for i in range(self.m):
+            for j in range(self.n):
+                weight = self.weights[i, j, :]
+                dist_to_bmu = np.linalg.norm(np.array([i, j]) - np.array(bmu_idx))
+                if dist_to_bmu < radius:
+                    influence = np.exp(-(dist_to_bmu**2) / (2 * (radius**2)))
+                    self.weights[i, j, :] += influence * learning_rate * (sample - weight)
+
+    def train(self, data, num_iterations):
+        for i in range(num_iterations):
+            for sample in data:
+                bmu_idx = self._find_bmu(sample)
+                learning_rate, radius = self.decay_function(self.learning_rate, self.initial_radius, i, num_iterations)
+                self._update_weights(sample, bmu_idx, learning_rate, radius)
+            if i % 10 == 0:
+                print(f"Iteration {i}/{num_iterations} complete")
+
+    def map_vects(self, data):
+        bmu_indices = np.array([self._find_bmu(sample) for sample in data])
+        return bmu_indices
+
+# Define SOM dimensions and parameters
+som = SOM(m=40, n=40, dim=32*32*3, learning_rate=0.5, radius=5)
+
+# Train SOM
+som.train(X_train, num_iterations=100)
+
+# Map training and testing data to BMU indices
+train_bmu_indices = som.map_vects(X_train)
+test_bmu_indices = som.map_vects(X_test)
+
+print("Training data mapped to BMU indices")
+print(train_bmu_indices)
+print("Testing data mapped to BMU indices")
+print(test_bmu_indices)
+
+def plot_som_clusters(som, data, title):
+    plt.figure(figsize=(10, 10))
+    for x in range(som.m):
+        for y in range(som.n):
+            plt.text(x, y, '', ha='center', va='center',
+                     bbox=dict(facecolor='white', alpha=0.5, lw=0))
+    
+    bmu_indices = som.map_vects(data)
+    unique_bmus = np.unique(bmu_indices, axis=0)
+    
+    for bmu in unique_bmus:
+        points = data[(bmu_indices == bmu).all(axis=1)]
+        plt.text(bmu[1], bmu[0], str(len(points)),
+                 ha='center', va='center',
+                 bbox=dict(facecolor='red', alpha=0.5, lw=0))
+    
+    plt.title(title)
+    plt.xlim(-0.5, som.n-0.5)
+    plt.ylim(-0.5, som.m-0.5)
+    plt.gca().invert_yaxis()
+    plt.show()
+
+plot_som_clusters(som, X_train, "SOM Clusters for Training Data")
+plot_som_clusters(som, X_test, "SOM Clusters for Testing Data")
+
+def calculate_accuracy(labels, bmu_indices):
+    cluster_labels = {}
+    for idx, bmu in enumerate(bmu_indices):
+        bmu_tuple = tuple(bmu)
+        if bmu_tuple not in cluster_labels:
+            cluster_labels[bmu_tuple] = []
+        cluster_labels[bmu_tuple].append(labels[idx])
+    
+    correct_predictions = 0
+    total_predictions = len(labels)
+    
+    for bmu, label_list in cluster_labels.items():
+        most_common_label = np.bincount(np.array(label_list).flatten()).argmax()
+        correct_predictions += (np.array(label_list).flatten() == most_common_label).sum()
+    
+    accuracy = correct_predictions / total_predictions
+    return accuracy
+
+train_accuracy = calculate_accuracy(Y_train, train_bmu_indices)
+test_accuracy = calculate_accuracy(Y_test, test_bmu_indices)
+
+print(f"Training data accuracy: {train_accuracy}")
+print(f"Testing data accuracy: {test_accuracy}")
+
+
