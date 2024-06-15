@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Reserve function
-  function Reserve(firstName, lastName, carSelect, citySelect, date) {
+  function reserveCar(firstName, lastName, carSelect, citySelect, date) {
     const userInfo = {
       id: generateId(),
       firstName: firstName.value,
@@ -25,14 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
       date: date.value,
     };
 
-    if (Number(localStorage.getItem(`${userInfo.carSelect}`)) <= 0) {
+    if (Number(localStorage.getItem(userInfo.carSelect)) <= 0) {
       alert(`${userInfo.carSelect} is full`);
     } else {
       localStorage.setItem(
-        `${userInfo.carSelect}`,
-        `${Number(localStorage.getItem(`${userInfo.carSelect}`)) - 1}`
+        userInfo.carSelect,
+        `${Number(localStorage.getItem(userInfo.carSelect)) - 1}`
       );
-      localStorage.setItem(`${userInfo.id}`, JSON.stringify(userInfo));
+      localStorage.setItem(userInfo.id, JSON.stringify(userInfo));
       travelingCar[userInfo.carSelect].push(userInfo);
       return userInfo;
     }
@@ -44,11 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const citySelect = document.getElementById("citySelect");
   const carSelect = document.getElementById("carSelect");
   const date = document.getElementById("datepicker5");
+  const carList = document.getElementById("carList");
 
   // Set car capacities
-  localStorage.setItem(`car1`, "40");
-  localStorage.setItem(`car2`, "40");
-  localStorage.setItem(`car3`, "40");
+  localStorage.setItem("car1", "40");
+  localStorage.setItem("car2", "40");
+  localStorage.setItem("car3", "40");
 
   // Initialize Jalali Datepicker
   $(function () {
@@ -57,20 +58,30 @@ document.addEventListener("DOMContentLoaded", () => {
       changeYear: true,
     });
   });
+
   // Form submission handler
   document.getElementById("reservationForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    const reservedInfo = Reserve(
+    const reservedInfo = reserveCar(
       firstName,
       lastName,
       carSelect,
       citySelect,
       date
     );
-    console.log(reservedInfo);
-  });
+    if (reservedInfo) {
+      // Clear input fields after reservation
+      firstName.value = "";
+      lastName.value = "";
+      citySelect.value = "";
+      carSelect.value = "";
+      date.value = "";
 
-  function Show() {
-    alert("hell");
-  }
+      // Display reserved car details
+      const li = document.createElement("li");
+      li.className = "car-item";
+      li.textContent = `نام: ${reservedInfo.firstName} ${reservedInfo.lastName}، اتوبوس: ${reservedInfo.carSelect}، مقصد: ${reservedInfo.citySelect}، تاریخ: ${reservedInfo.date}`;
+      carList.appendChild(li);
+    }
+  });
 });
