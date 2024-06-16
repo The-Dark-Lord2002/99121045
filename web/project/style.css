@@ -107,3 +107,82 @@ section {
 .reserve-form > button:hover {
   background-color: #0056b3;
 }
+/*responsive*/
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+  section {
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+  }
+
+  .describe,
+  .reserve-form {
+    width: 100%;
+  }
+
+  .describe > h1,
+  .reserve-form > h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .describe > h1,
+  .reserve-form > h1 {
+    font-size: 1.8rem;
+  }
+
+  .describe > p,
+  .holder > label,
+  .holder > input,
+  .holder > select,
+  .reserve-form > button {
+    font-size: 1.4rem;
+  }
+
+  .holder > label {
+    width: 100%;
+    text-align: right;
+  }
+
+  .holder > input,
+  .holder > select {
+    width: 100%;
+  }
+
+  .reserve-form > button {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 50%;
+  }
+
+  section {
+    width: 90%;
+  }
+
+  .describe > h1,
+  .reserve-form > h1 {
+    font-size: 1.5rem;
+  }
+
+  .describe > p,
+  .holder > label,
+  .holder > input,
+  .holder > select,
+  .reserve-form > button {
+    font-size: 1.2rem;
+  }
+}
