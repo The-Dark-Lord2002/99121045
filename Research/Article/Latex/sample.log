@@ -1,0 +1,1042 @@
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (Web2C 2010) (format=xelatex 2024.4.5)  12 JUN 2024 06:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sample.tex
+(./sample.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(c:/texlive/2010/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(c:/texlive/2010/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(c:/texlive/2010/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(c:/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(c:/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(c:/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(c:/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(c:/texlive/2010/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(c:/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(c:/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count100
+)
+(c:/texlive/2010/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/07/13 v5.5 Page Geometry
+
+(c:/texlive/2010/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(c:/texlive/2010/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
+\Gm@bindingoffset=\dimen122
+\Gm@wd@mp=\dimen123
+\Gm@odd@mp=\dimen124
+\Gm@even@mp=\dimen125
+\Gm@layoutwidth=\dimen126
+\Gm@layoutheight=\dimen127
+\Gm@layouthoffset=\dimen128
+\Gm@layoutvoffset=\dimen129
+\Gm@dimlist=\toks21
+)
+(c:/texlive/2010/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/xepersian.sty
+Package: xepersian 2010/07/25 v1.0.9 <commit 23> Persian typesetting in XeLaTeX
+
+
+(c:/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2010/07/14 v2.0b Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/expl3.sty
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3names.sty
+Package: l3names 2010/07/11 v1981 L3 Experimental Naming Scheme for TeX Primiti
+ves
+)
+Package: expl3 2010/07/13 v1982 L3 Experimental code bundle wrapper
+
+(c:/texlive/2010/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count105
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3basics.sty
+Package: l3basics 2010/06/07 v1942 L3 Experimental basic definitions
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3expan.sty
+Package: l3expan 2010/06/10 v1948 L3 Experimental Argument Expansion module
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3tl.sty
+Package: l3tl 2010/05/22 v1919 L3 Experimental Token Lists
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3intexpr.sty
+Package: l3intexpr 2010/06/15 v1957 L3 Integer Expressions
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3quark.sty
+Package: l3quark 2010/03/21 v1853 L3 Experimental Quark Commands
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3seq.sty
+Package: l3seq 2010/03/29 v1879 L3 Experimental sequences and stacks
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3toks.sty
+Package: l3toks 2010/05/25 v1933 L3 Experimental Token Registers
+\l_tmpb_toks=\toks24
+\l_tmpc_toks=\toks25
+\g_tmpa_toks=\toks26
+\g_tmpb_toks=\toks27
+\g_tmpc_toks=\toks28
+\c_empty_toks=\toks29
+\l_tl_replace_toks=\toks30
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3int.sty
+Package: l3int 2010/05/25 v1933 L3 Experimental Integer module
+\l_tmpa_int=\count106
+\l_tmpb_int=\count107
+\l_tmpc_int=\count108
+\g_tmpa_int=\count109
+\g_tmpb_int=\count110
+\c_max_int=\count111
+\g_tl_inline_level_int=\count112
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3prg.sty
+Package: l3prg 2010/03/21 v1853 L3 Experimental control structures
+\g_prg_inline_level_int=\count113
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3clist.sty
+Package: l3clist 2010/03/29 v1878 L3 Experimental comma separated lists
+\g_clist_inline_level_int=\count114
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3token.sty
+Package: l3token 2010/04/11 v1890 L3 Experimental token investigation and manip
+ulation
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3prop.sty
+Package: l3prop 2010/03/21 v1857 L3 Experimental Property Lists
+\g_prop_inline_level_int=\count115
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3msg.sty
+Package: l3msg 2010/03/23 v1866 L3 Experimental LaTeX Messages module
+\l_msg_redirect_classes_prop=\toks31
+\l_msg_redirect_names_prop=\toks32
+\l_msg_redirect_fatal_prop=\toks33
+\l_msg_redirect_error_prop=\toks34
+\l_msg_redirect_warning_prop=\toks35
+\l_msg_redirect_info_prop=\toks36
+\l_msg_redirect_log_prop=\toks37
+\l_msg_redirect_trace_prop=\toks38
+\l_msg_redirect_none_prop=\toks39
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3io.sty
+Package: l3io 2010/05/22 v1923 L3 Experimental i/o module
+\g_iow_streams_prop=\toks40
+\g_ior_streams_prop=\toks41
+\l_iow_stream_int=\count116
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3skip.sty
+Package: l3skip 2010/05/25 v1933 L3 Experimental skip registers
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\l_tmpc_skip=\skip50
+\g_tmpa_skip=\skip51
+\g_tmpb_skip=\skip52
+\l_tmpa_dim=\dimen130
+\l_tmpb_dim=\dimen131
+\l_tmpc_dim=\dimen132
+\l_tmpd_dim=\dimen133
+\g_tmpa_dim=\dimen134
+\g_tmpb_dim=\dimen135
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3box.sty
+Package: l3box 2010/05/22 v1919 L3 Experimental Box module
+\l_tmpb_box=\box30
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3keyval.sty
+Package: l3keyval 2010/04/11 v1890 L3 Experimental keyval processing
+\l_KV_level_int=\count117
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3keys.sty
+Package: l3keys 2010/05/24 v1931 L3 Experimental key-value support
+\l_keys_choice_int=\count118
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3precom.sty
+Package: l3precom 2010/02/09 v1793 L3 Experimental precompilation module
+\g_gen_sym_int=\count119
+\g_ggen_sym_int=\count120
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3xref.sty
+Package: l3xref 2010/02/09 v1786 L3 Experimental cross referencing
+\g_xref_all_curr_immediate_fields_prop=\toks42
+\g_xref_all_curr_deferred_fields_prop=\toks43
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3file.sty
+Package: l3file 2010/03/21 v1853 L3 Experimental file loading
+)
+(c:/texlive/2010/texmf-dist/tex/latex/expl3/l3fp.sty
+Package: l3fp 2010/07/08 v1979 L3 Experimental floating-point operations
+\l_fp_input_a_integer_int=\count121
+\l_fp_input_a_decimal_int=\count122
+\l_fp_input_b_integer_int=\count123
+\l_fp_input_b_decimal_int=\count124
+\l_fp_input_a_sign_int=\count125
+\l_fp_input_b_sign_int=\count126
+\l_fp_split_sign_int=\count127
+\l_fp_mul_a_i_int=\count128
+\l_fp_mul_a_ii_int=\count129
+\l_fp_mul_a_iii_int=\count130
+\l_fp_mul_a_iv_int=\count131
+\l_fp_mul_a_v_int=\count132
+\l_fp_mul_a_vi_int=\count133
+\l_fp_mul_b_i_int=\count134
+\l_fp_mul_b_ii_int=\count135
+\l_fp_mul_b_iii_int=\count136
+\l_fp_mul_b_iv_int=\count137
+\l_fp_mul_b_v_int=\count138
+\l_fp_mul_b_vi_int=\count139
+\l_fp_mul_output_int=\count140
+\l_fp_div_count_int=\count141
+\l_fp_div_offset_int=\count142
+\l_fp_output_sign_int=\count143
+\l_fp_output_integer_int=\count144
+\l_fp_output_decimal_int=\count145
+\l_fp_round_discard_int=\count146
+\l_fp_round_position_int=\count147
+\l_fp_tmp_int=\count148
+\c_one_hundred_million=\count149
+\c_one_thousand_million=\count150
+\l_fp_tmp_dim=\dimen136
+\l_fp_round_precision_int=\count151
+)
+(c:/texlive/2010/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count154
+\calc@Cskip=\skip55
+))
+(c:/texlive/2010/texmf-dist/tex/latex/xpackages/xbase/xparse.sty
+Package: xparse 2010/05/23 v1927 Generic document command parser
+\c_xparse_shorthands_prop=\toks44
+\l_xparse_m_args_int=\count155
+\l_xparse_mandatory_args_int=\count156
+\l_xparse_processor_int=\count157
+\l_xparse_total_args_int=\count158
+)
+(c:/texlive/2010/texmf-dist/tex/generic/kastrup/binhex.tex)
+\c@zf@newff=\count159
+\c@zf@index=\count160
+\c@zf@script=\count161
+\c@zf@language=\count162
+\l_fontspec_strnum_int=\count163
+
+(c:/texlive/2010/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(c:/texlive/2010/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+\XKV@depth=\count164
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(c:/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2010/07/14 v2.0b Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(c:/texlive/2010/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+LaTeX Info: Redefining \em on input line 23.
+LaTeX Info: Redefining \emph on input line 27.
+LaTeX Info: Redefining \- on input line 30.
+)
+(c:/texlive/2010/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(c:/texlive/2010/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1g Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(c:/texlive/2010/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+ LaTeX Info: Defining document command \fontspec
+(LaTeX)  with arg. spec. 'O{}m' on line 264.
+
+ LaTeX Info: Defining document command \setmainfont
+(LaTeX)  with arg. spec. 'O{}m' on line 268.
+
+ LaTeX Info: Defining document command \setsansfont
+(LaTeX)  with arg. spec. 'O{}m' on line 272.
+
+ LaTeX Info: Defining document command \setmonofont
+(LaTeX)  with arg. spec. 'O{}m' on line 276.
+
+ LaTeX Info: Defining document command \setmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 280.
+
+ LaTeX Info: Defining document command \setboldmathrm
+(LaTeX)  with arg. spec. 'O{}m' on line 283.
+
+ LaTeX Info: Defining document command \setmathsf
+(LaTeX)  with arg. spec. 'O{}m' on line 286.
+
+ LaTeX Info: Defining document command \setmathtt
+(LaTeX)  with arg. spec. 'O{}m' on line 289.
+
+ LaTeX Info: Defining document command \newfontfamily
+(LaTeX)  with arg. spec. 'mO{}m' on line 304.
+
+ LaTeX Info: Defining document command \newfontface
+(LaTeX)  with arg. spec. 'mO{}m' on line 307.
+
+ LaTeX Info: Defining document command \defaultfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 308.
+
+ LaTeX Info: Defining document command \addfontfeatures
+(LaTeX)  with arg. spec. 'm' on line 325.
+
+ LaTeX Info: Defining document command \newfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 334.
+
+ LaTeX Info: Defining document command \newAATfeature
+(LaTeX)  with arg. spec. 'mmmm' on line 343.
+
+ LaTeX Info: Defining document command \newICUfeature
+(LaTeX)  with arg. spec. 'mmm' on line 352.
+
+ LaTeX Info: Defining document command \aliasfontfeature
+(LaTeX)  with arg. spec. 'mm' on line 354.
+
+ LaTeX Info: Defining document command \aliasfontfeatureoption
+(LaTeX)  with arg. spec. 'mmm' on line 357.
+
+ LaTeX Info: Defining document command \newfontscript
+(LaTeX)  with arg. spec. 'mm' on line 362.
+
+ LaTeX Info: Defining document command \newfontlanguage
+(LaTeX)  with arg. spec. 'mm' on line 379.
+
+ LaTeX Info: Defining document command \DeclareFontsExtensions
+(LaTeX)  with arg. spec. 'm' on line 395.
+
+\c@fontspec_tmp_int=\count165
+LaTeX Info: Redefining \itshape on input line 1903.
+LaTeX Info: Redefining \slshape on input line 1907.
+LaTeX Info: Redefining \scshape on input line 1911.
+LaTeX Info: Redefining \upshape on input line 1915.
+
+fontspec.cfg loaded.
+(c:/texlive/2010/texmf-dist/tex/latex/fontspec/fontspec.cfg))
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
+Package: xepersian-persiancal 2010/07/25 v0.1 provides Persian calendar
+\XePersian@i=\count166
+\XePersian@y=\count167
+\XePersian@m=\count168
+\XePersian@d=\count169
+\XePersian@latini=\count170
+\XePersian@persiani=\count171
+\XePersian@latinii=\count172
+\XePersian@persianii=\count173
+\XePersian@latiniii=\count174
+\XePersian@persianiii=\count175
+\XePersian@latiniv=\count176
+\XePersian@persianiv=\count177
+\XePersian@latinv=\count178
+\XePersian@persianv=\count179
+\XePersian@latinvi=\count180
+\XePersian@persianvi=\count181
+\XePersian@latinvii=\count182
+\XePersian@persianvii=\count183
+\XePersian@latinviii=\count184
+\XePersian@persianviii=\count185
+\XePersian@latinix=\count186
+\XePersian@persianix=\count187
+\XePersian@latinx=\count188
+\XePersian@persianx=\count189
+\XePersian@latinxi=\count190
+\XePersian@persianxi=\count191
+\XePersian@latinxii=\count192
+\XePersian@persianxii=\count193
+\XePersian@persianxiii=\count194
+\XePersian@temp=\count195
+\XePersian@temptwo=\count196
+\XePersian@tempthree=\count197
+\XePersian@yModHundred=\count198
+\XePersian@thirtytwo=\count199
+\XePersian@dn=\count200
+\XePersian@sn=\count201
+\XePersian@mminusone=\count202
+)
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
+Package: xepersian-mathsdigitspec 2010/07/25 v0.6 Unicode Persian maths digits 
+in XeLaTeX
+) (c:/texlive/2010/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2010/04/10 v1.9 e-TeX tools for LaTeX
+\etb@tempcnta=\count203
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/bidi.sty
+Package: bidi 2010/07/25 v1.1.4a <commit 77> Bidirectional typesetting in plain
+ TeX and LaTeX
+
+bidi package (Support for bidirectional typesetting in plain TeX and LaTeX)
+ Description: A convenient interface for typesetting bidirectional
+ texts in plain TeX and LaTeX. The package includes adaptations for use
+ with many other commonly-used packages.
+ Copyright © 2009-2010 Vafa Khalighi
+ v1.1.4a, <commit 77>, 2010/07/25
+ License: LaTeX Project Public License, version 1.3c or higher (your choice)
+ Home: http://bitbucket.org/vafa/bidi
+ Location on CTAN: /macros/latex/contrib/bidi
+(c:/texlive/2010/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2010/07/25 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/loadingorder-bidi.def
+File: loadingorder-bidi.def 2010/07/25 v0.5 making sure that bidi is the last p
+ackage loaded
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/xetex-bidi.def
+File: xetex-bidi.def 2010/07/25 v0.7 bidi adaptations for XeTeX engine
+\n@everypar=\toks47
+
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2010/07/25 v0.5 bidi footnote macros for XeTeX en
+gine
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/article-xetex-bidi.def
+File: article-xetex-bidi.def 2010/07/25 v0.4 bidi adaptations for standard arti
+cle class for XeTeX engine
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2010/07/25 v0.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+LaTeX Info: Redefining \[ on input line 24.
+LaTeX Info: Redefining \] on input line 25.
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/caption-xetex-bidi.def
+File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
+ge for XeTeX engine
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2010/07/25 v0.3 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(c:/texlive/2010/texmf-dist/tex/latex/bidi/array-xetex-bidi.def
+File: array-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for array package f
+or XeTeX engine
+)))
+xepersian package (Persian for LaTeX over XeTeX)
+ Description: The package supports Persian
+ typesetting, using fonts provided in the distribution.
+ Copyright © 2008-2010 Vafa Khalighi
+ v1.0.9, <commit 23>, 2010/07/25
+ License: LaTeX Project Public License, version 1.3c or higher (your choice)
+ Home: http://bitbucket.org/vafa/xepersian
+ Location on CTAN: /macros/xetex/latex/xepersian
+
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/loadingorder-bidi-xepersian.d
+ef
+File: loadingorder-bidi-xepersian.def 2010/07/25 v0.2 making sure that xepersia
+n is the last package loaded
+)
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/footnote-bidi-xepersian.def
+File: footnote-bidi-xepersian.def 2010/07/25 v0.2 footnote macros for xepersian
+ package
+)
+(c:/texlive/2010/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
+File: article-xepersian.def 2010/07/25 v0.2 adaptations for standard article cl
+ass
+))
+\c@zf@famc@Arial=\count204
+ fontspec Info: Defining font family for 'Arial' with options [Script=Parsi,Lan
+guage=Parsi,Mapping=parsidigits,].
+
+Package fontspec Info: Defining shape m/n with raw font features:
+(fontspec)             mapping=parsidigits;.
+Package fontspec Info: Defining shape bx/n with raw font features:
+(fontspec)             mapping=parsidigits;.
+Package fontspec Info: Defining shape m/it with raw font features:
+(fontspec)             mapping=parsidigits;.
+Package fontspec Info: Defining shape bx/it with raw font features:
+(fontspec)             mapping=parsidigits;.
+
+(./sample.aux)
+\openout1 = `sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package xepersian Info: “You have not specified any font for the Latin texts 
+of the document and so the default TeX fonts will be used for the Latin texts o
+f the document. If you would like to have any other font as the font of the Lat
+in texts, then please specify a font for the Latin texts of the document by usi
+ng \setlatintextfont CS, and then try to run xelatex on your document again” 
+on input line 21.
+\c@zf@famc@lmroman10-regular=\count205
+ fontspec Info: Defining font family for 'lmroman10-regular' with options [Mapp
+ing=tex-text,ExternalLocation,BoldFont={lmroman10-bold},BoldItalicFont={lmroman
+10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps10-regul
+ar},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromanslant10-bold}]
+.
+
+Package fontspec Info: Defining shape m/n with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape m/sc with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape bx/n with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape bx/sc with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape m/it with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape m/si with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape m/sl with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape m/sc with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape bx/sl with raw font features:
+(fontspec)             mapping=tex-text;.
+Package fontspec Info: Defining shape bx/sc with raw font features:
+(fontspec)             mapping=tex-text;.
+Package xepersian Info: “You have not specified any font for the digits in ma
+ths mode and so the digits in maths mode will appear Latin. If you would like t
+o have Persian digits in maths mode, then please specify a font for the digits 
+in maths mode by using \setdigitfont CS, and then try to run xelatex on your do
+cument again” on input line 21.
+! Undefined control sequence.
+\@author ...س پست الکترونیکی: \href 
+                                                  {denny.hermawanto@gmail.com} 
+l.23 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ف
+       لوچارت الگوریتم را میتوان در شکل زیر م...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: picture.jpg Graphic file (type QTm)
+<use  "picture.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 \[
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \end{align*}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2]
+Overfull \vbox (302.34077pt too high) has occurred while \output is active []
+
+
+[3]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177  \[
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ...21 + 0.1243 + 0.2118 = 1.0\\ \end{align*}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--228
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--228
+[][]
+ []
+
+[5]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+[][]
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
+[][]
+ []
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 260
+.
+(c:/texlive/2010/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Missing character: There is no ρ in font [lmmono10-regular]!
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 286--288
+[][]
+ []
+
+
+Overfull \hbox (14.05621pt too wide) in paragraph at lines 289--290
+[][]\EU1/Arial(0)/m/n/10.95 با توجه به اعداد نمونه تصادف
+ی که در بالا آورده شده است، والدین $[]\OT1/cmr/m/n/1
+0.95 [1]$\EU1/Arial(0)/m/n/10.95 ، $[]\OT1/cmr/m/n/10.95 [4]$ \EU1/Arial(0)/m/
+n/10.95 و $[]\OT1/cmr/m/n/10.95 [5]$[]
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.316 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
+[][]
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 \end{align*}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--335
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--345
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--361
+[][]
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--397
+[][]
+ []
+
+[9] [10] (./sample.aux) ) 
+Here is how much of TeX's memory you used:
+ 10669 strings out of 494541
+ 191638 string characters out of 3160202
+ 295763 words of memory out of 3000000
+ 13724 multiletter control sequences out of 15000+200000
+ 8358 words of font info for 51 fonts, out of 3000000 for 9000
+ 669 hyphenation exceptions out of 8191
+ 45i,11n,73p,802b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on sample.pdf (10 pages).
