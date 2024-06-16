@@ -69,6 +69,12 @@ document.addEventListener("DOMContentLoaded", () => {
       citySelect,
       date
     );
+    // Alert with reservation details
+    alert(`رزرو با موفقیت انجام شد!
+          نام: ${reservedInfo.firstName} ${reservedInfo.lastName}
+          شناسه رزرو: ${reservedInfo.id}
+          ممنون از خرید شما`);
+
     if (reservedInfo) {
       // Clear input fields after reservation
       firstName.value = "";
