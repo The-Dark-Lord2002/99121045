@@ -40,13 +40,29 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function showCar(x) {
+    switch (x) {
+      case "car1":
+        return "وولو440قرمز";
+        break;
+      case "car2":
+        return "وولو 334آبی";
+        break;
+      case "car3":
+        return "اسکانیا 112سبز";
+        break;
+    }
+  }
+
   // Display reservations
   function displayReservations() {
     reservationList.innerHTML = "";
     for (let car in travelingCar) {
       travelingCar[car].forEach((reservation) => {
         const li = document.createElement("li");
-        li.textContent = `${reservation.firstName} ${reservation.lastName} - ${reservation.citySelect} - ${reservation.carSelect} - ${reservation.date}`;
+        li.textContent = `${reservation.firstName} ${reservation.lastName} - ${
+          reservation.citySelect
+        } - ${showCar(reservation.carSelect)} - ${reservation.date}`;
         const cancelButton = document.createElement("button");
         cancelButton.textContent = "Cancel";
         cancelButton.onclick = () =>
